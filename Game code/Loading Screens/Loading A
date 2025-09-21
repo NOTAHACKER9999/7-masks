@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading Screen</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 4em;
+      margin-top: 50px;
+    }
+
+    .logo {
+      margin-top: 40px;
+      width: 300px; /* adjust size if needed */
+      height: auto;
+      background: black; /* covers transparency */
+      display: inline-block;
+      border-radius: 20px; /* optional: soften edges */
+      animation: spin 3s linear infinite;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <h1>ㄥㄖ卂ᗪ丨几Ꮆ</h1>
+  <img class="logo" src="https://raw.githubusercontent.com/NOTAHACKER9999/7-masks/refs/heads/main/Game%20code/Logos/7%20masks%20logo.png" alt="Loading Logo">
+</body>
+</html>
